@@ -7,6 +7,9 @@
     "dev": "tsc -w -p",
     "test": "tslint src/*.ts && mocha ./test/**"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/djyde/node-baidu-translate.git"
